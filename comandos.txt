@@ -1,0 +1,17 @@
+1. Copiamos los archivos 
+    .dockerignore, 
+    .env,
+    .env.template,
+    .gitignore,
+    docker-compose.yml
+    README.md
+
+2. Copiamos las referencias en github de client-gateway, orders-ms y products-ms
+
+3. Y con el compando
+    git submodule add url-de-la-referencia nombre-directorio products-ms
+
+4. Actualizamos github 
+    git add .
+    git commit -m "mensaje"
+    git push
